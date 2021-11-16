@@ -17,6 +17,7 @@ Partition | Size
 The subvolumes are mounted into
 
 Subvolume | Mountpoint
+--- | ---
 @ | /
 @home | /home
 @pkg | /var/cache/pacman/pkg
