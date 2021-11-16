@@ -5,7 +5,7 @@ feedback and issues are welcome*
 
 Basically boot to the arch live usb. Change layout, and connect to the Wi-Fi
 
-# What does the 10-unattended.sh script do
+## What does the 10-unattended.sh script do
 The 10-unnattended.sh script does this:
 It will install Arch Linux in the drive that you selected to, with luks2 encryption, btrfs
 and it only works for UEFI systems:
@@ -30,9 +30,8 @@ Subvolume | Mountpoint
 not be touched*. And for the bootloader we are using systemd-boot with systemd hooks since
 it's simpler. There's also a little 4Gb "partition" that you will see as [SWAP] if you do a
 quick lsblk, because we are using zram in case that you run out of RAM.
-Also be aware that the keymap that you get asked about when you first run the script is
-the one to that will be used when asked to introduce your password for decrypting the
-drive
+
+Be aware that the keymap that you choose will be the one used for decrypting the drive
 
 For networking we are using NetworkManager
 
