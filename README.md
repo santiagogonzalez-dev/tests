@@ -11,6 +11,7 @@ It will install Arch Linux in the drive that you selected to, with luks2 encrypt
 and it only works for UEFI systems:
 
 Partition | Size
+--- | ---
 /boot | 333Mb
 / | The rest of the drive
 
